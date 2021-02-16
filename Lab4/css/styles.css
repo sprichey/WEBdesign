@@ -1,0 +1,19 @@
+body{
+    background-color:lightslategray
+}
+img {
+    max-width: 100%;
+}
+a {
+    color: dodgerblue;
+}
+a :hover {
+    color: mediumblue;
+    text-decoration: slategray;
+}
+#container {
+    width: 75%;
+    margin: 20px auto;
+    border: 4px solid darkturquoise;
+    padding: 50px;
+}
