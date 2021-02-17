@@ -17,6 +17,9 @@ a :hover {
     border: 4px solid darkturquoise;
     padding: 25px;
 }
+a {
+    color: cyan;
+}
 header {
     font-size: 40px;
     text-align: center;
@@ -39,6 +42,7 @@ main {
   margin: 20px;
   padding: 20px;
   border: 2px solid darkturquoise;
+  color: cyan;
 }
 img {
     border: 2px solid darkturquoise;
