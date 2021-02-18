@@ -14,7 +14,7 @@ a :hover {
 }
 #container {
     width: 75%;
-    margin: 20px auto;
+    margin: 0px auto;
     border: 2px solid darkturquoise;
     padding: 20px;
     background-color: slategray;
@@ -28,7 +28,8 @@ header {
 }
 header h1 {
     color: aqua;
-text-align: center;
+    font-size: 60px;
+    text-align: center;
 }
 
 nav {
@@ -53,10 +54,22 @@ nav a:hover {
 
 main {
   background-color: lightslategray;  
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   border: 2px solid darkturquoise;
   color: cyan;
+  text-align: center;
+  border-radius: 20px;
+}
+main h2 {
+    color: darkturquoise;
+    text-align: center;
+    font-size: 40px;
+}
+
+main img {
+    border-radius: 20px;
+    width: 75%;
 }
 
 img {
@@ -66,14 +79,15 @@ img {
         
 
 footer {
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
     color: darkslategray;
+    background-color: darkturquoise;
 }
 
 .imgstyle {
     border: 4px solid cyan;
-    box-shadow:  5px 5px 10px lightslategray;
+    box-shadow:  5px 10px 5px darkslategrey;
 }
 
 .contact {
