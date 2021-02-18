@@ -1,5 +1,6 @@
 body{
-    background-color:lightslategray
+    background-color:lightslategray;
+    font: 20px;
 }
 img {
     max-width: 100%;
@@ -14,12 +15,13 @@ a :hover {
 #container {
     width: 75%;
     margin: 20px auto;
-    border: 4px solid darkturquoise;
-    padding: 25px;
+    border: 2px solid darkturquoise;
+    padding: 20px;
+    background-color: slategray;
 }
 
 header {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     color: darkturquoise;
    
