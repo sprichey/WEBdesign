@@ -8,3 +8,5 @@
 <a href="Lab3/index.html">Lab3 - Blues Clues and You</a><br>
 
 <a href="Lab4/index.html">Lab4 - Dolphins</a><br>
+
+<a href="Midterm/index.html">Midterm - Elephants</a><br>
