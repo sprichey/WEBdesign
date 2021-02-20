@@ -48,6 +48,9 @@ header h1 {
 
 nav {
     text-align: center;
+    background-color:darkslategray;
+    padding: 5px 0;
+    margin-top: 20px;
 }
 
 nav a {
@@ -59,7 +62,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: darkslategrey;
+    background-color: dimgray;
     color: blanchedalmond;
     text-decoration: dimgray;
     padding: 20px 60px;
@@ -67,7 +70,7 @@ nav a:hover {
 
 main {
     background-color: darkslategray;
-    margin: 10px;
+    margin: 20px auto;
     padding: 10px;
     border: 2px solid dimgray;
     color: blanchedalmond;
@@ -83,8 +86,10 @@ main h2 {
 
 main img {
     border-radius: 20px;
-    width: 100%;
+    width: 90%;
     display: block;
+    width: 100%;
+    border: 2px solid blanchedalmond;
 }
 
 img {
@@ -93,7 +98,7 @@ img {
 }
 
 footer {
-    padding: 40px 0;
+    padding: 20px 0;
     text-align: center;
     color: blanchedalmond;
     background-color: darkslategray;
