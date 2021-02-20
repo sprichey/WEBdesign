@@ -1,4 +1,6 @@
-body {
+/* Gloabl Styles */
+
+body { 
     background-color: blanchedalmond;
     font-size: 20px;
 }
@@ -6,6 +8,8 @@ body {
 img {
     max-width: 100%;
 }
+
+/* Main Styles */
 
 a {
     color: darkslategray;
@@ -22,6 +26,12 @@ a :hover {
     border: 4px solid grey;
     padding: 20px;
     background-color: dimgray;
+}
+
+header img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
 }
 
 header {
