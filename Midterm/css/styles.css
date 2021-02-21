@@ -44,6 +44,14 @@ header h1 {
     color: blanchedalmond;
     font-size: 80px;
     text-align: center;
+    text-shadow: 2px 5px darkslategray;
+}
+
+header h2 {
+    color: darkslategray;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 5px 2px blanchedalmond;
 }
 
 nav {
@@ -63,10 +71,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: dimgray;
+    background-color:lightslategrey;
     color: blanchedalmond;
-    text-decoration: dimgray;
-    padding: 20px 60px;
+    text-decoration: blanchedalmond;
+    padding: 20px 60px;  
+
 }
 
 main {
@@ -80,7 +89,7 @@ main {
 }
 
 main h2 {
-    color: darkslategray;
+    color: blanchedalmond;
     text-align: center;
     font-size: 40px;
 }
@@ -106,7 +115,7 @@ footer {
 }
 
 .imgstyle {
-    border: 4px solid blanchedalmond;
+    border: 4px solid black;
     box-shadow: 5px 10px 5px black;
 }
 
