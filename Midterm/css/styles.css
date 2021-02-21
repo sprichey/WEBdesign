@@ -51,6 +51,7 @@ nav {
     background-color:darkslategray;
     padding: 5px 0;
     margin-top: 20px;
+    color: blanchedalmond;
 }
 
 nav a {
@@ -114,5 +115,9 @@ footer {
 }
 
 main a :hover {
-    color: darkslategrey;
+    color: blanchedalmond;
+}
+
+h4 {
+    color: blanchedalmond;
 }
