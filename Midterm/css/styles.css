@@ -44,11 +44,11 @@ header h1 {
     color: blanchedalmond;
     font-size: 80px;
     text-align: center;
-    text-shadow: 2px 5px darkslategray;
+    text-shadow: 2px 5px  rgb(25, 54, 54);
 }
 
 header h2 {
-    color: darkslategray;
+    color: rgb(25, 54, 54);
     text-align: center;
     font-size: 60px;
     text-shadow: 2px 5px 2px blanchedalmond;
@@ -71,7 +71,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color:lightslategrey;
+    background-color:rgb(41, 60, 80);
     color: blanchedalmond;
     text-decoration: blanchedalmond;
     padding: 20px 60px;  
@@ -92,7 +92,10 @@ main h2 {
     color: blanchedalmond;
     text-align: center;
     font-size: 40px;
-    box-shadow: 5px 10px 5px dimgray;
+    box-shadow: 5px 10px 5px rgb(36, 35, 35);
+    background-color: rgb(126, 125, 125);
+    padding: 2px 2px 2px 2px;
+    text-shadow:  rgb(25, 54, 54);
 }
 
 main img {
@@ -101,6 +104,7 @@ main img {
     display: block;
     width: 100%;
     border: 2px solid blanchedalmond;
+    
 }
 
 img {
@@ -117,7 +121,7 @@ footer {
 
 .imgstyle {
     border: 4px solid black;
-    box-shadow: 5px 10px 5px black;
+    box-shadow: 10px 10px 10px black;
 }
 
 .contact {
