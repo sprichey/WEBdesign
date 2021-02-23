@@ -57,7 +57,7 @@ header h2 {
 nav {
     text-align: center;
     background-color:darkslategray;
-    padding: 5px 0;
+    padding: 12px 0;
     margin-top: 20px;
     color: blanchedalmond;
 }
@@ -125,7 +125,7 @@ footer {
 }
 
 main a :hover {
-    color: blanchedalmond;
+    color:darkkhaki;
 }
 
 h4 {
