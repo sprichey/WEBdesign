@@ -39,6 +39,7 @@ header {
     font-size: 40px;
     text-align: center;
     color:darkslategray;
+    border-radius: 20px;
 }
 
 header h1 {
@@ -120,6 +121,7 @@ footer {
     text-align: center;
     color: blanchedalmond;
     background-color: darkslategray;
+    border-radius: 20px;
 }
 
 .imgstyle {
