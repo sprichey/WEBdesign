@@ -98,7 +98,7 @@ main h2 {
     box-shadow: 5px 10px 5px rgb(36, 35, 35);
     background-color: rgb(126, 125, 125);
     padding: 2px 2px 2px 2px;
-    text-shadow:  rgb(25, 54, 54);
+    text-shadow: darkslategray;
     border-radius: 20px;
 }
 
