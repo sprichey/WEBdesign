@@ -10,3 +10,5 @@
 <a href="Lab4/index.html">Lab4 - Dolphins</a><br>
 
 <a href="Midterm/index.html">Midterm - Elephants</a><br>
+
+<a href="Lab5/index.html">Lab5 - Band of Brothers</a><br>
