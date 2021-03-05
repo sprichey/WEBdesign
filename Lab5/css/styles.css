@@ -9,7 +9,7 @@ img {
 }
 
 a {
-    color: whitesmoke;
+    color:beige;
 }
 
 a :hover {
@@ -17,16 +17,20 @@ a :hover {
     text-decoration: none;
 }
 
+h1 {
+    color: beige;
+}
+
 /* Mobile Styles */
 
 header {
-    background-color: rgb(18, 102, 10);
+    background-color: rgb(32, 35, 77);
     padding: 40px 0;
     text-align: center;
 }
 
 nav {
-    background-color: olivedrab;
+    background-color: rgb(55, 75, 14);
     text-align: center;
 }
 
@@ -42,24 +46,25 @@ nav li {
 nav li a {
     display: block;
     padding: 10px 0;
-    border-top: 2px solid tan;
+    border-top: 2px solid rgb(32, 35, 77);
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul a:hover {
-    background-color: brown;
+    background-color:darkolivegreen;
 }
 
 main {
     background-color: darkolivegreen;
     padding: 20px;
     margin: 10px;
+    color: beige;
 }
 
 footer {
-    background-color: brown;
+    background-color: rgb(32, 35, 77);
     text-align: center;
     padding: 10px 0;
     margin: 10px;
