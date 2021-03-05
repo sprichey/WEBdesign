@@ -1,0 +1,53 @@
+/* Global Styles */
+
+body {
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a :hover {
+    color: olive;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+header {
+    background-color: rgb(18, 102, 10);
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: olivedrab;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 10px 0;
+    border-top: 2px solid tan;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: brown;
+}
