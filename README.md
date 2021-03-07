@@ -12,3 +12,5 @@
 <a href="Midterm/index.html">Midterm - Elephants</a><br>
 
 <a href="Lab5/index.html">Lab5 - Band of Brothers</a><br>
+
+<a href="Lab6/index.html">Lab6 - Band of Brothers</a><br>
