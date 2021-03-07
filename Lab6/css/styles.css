@@ -69,6 +69,9 @@ footer {
     padding: 10px 0;
     margin: 10px;
 }
+.desktop {
+    display: none;
+}
 
 /* Tablet Styles */
 
@@ -110,5 +113,32 @@ footer {
 
     aside {
         width: 30%;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1024px) {
+    header {
+        background-image: url('../images/bandofbrothers3.jpg');
+        padding: 150px 0;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    nav li a {
+        font-size: 30px;
+        padding: 20px 75px;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+
+    .tab_mobile {
+        display: none;
     }
 }
