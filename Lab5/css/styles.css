@@ -23,6 +23,11 @@ h1 {
 
 /* Mobile Styles */
 
+#container {
+    margin: 10px;
+}
+
+
 header {
     background-color: rgb(32, 35, 77);
     padding: 40px 0;
