@@ -66,6 +66,48 @@ nav ul a:hover {
     color: blanchedalmond;
 }
 
+ul {
+    text-align: center;
+    color:black ;
+}
+
+li {
+    text-align: center;
+    max-width: 100%;
+}
+
+section, aside {
+    padding: 20px;
+}
+
+section {
+    background-color: rgb(32, 35, 77);
+}
+
+section h1 {
+    color: blanchedalmond;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+aside
+ {
+     background-color: darkolivegreen;
+     margin-top: 10px;
+ }
+
+ aside h2, aside h3 {
+     color: blanchedalmond;
+     text-shadow: 2px 2px 2px black;
+     text-align: center;
+     font-size: 1.5em;
+ }
+
+ aside hr {
+     border-color: rgb(32, 35, 77);
+ }
+
 main {
     background-color: darkolivegreen;
     padding: 20px;
