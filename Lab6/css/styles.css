@@ -207,6 +207,15 @@ footer {
         border-radius: 20px;
         border:  4px solid burlywood;
     }
+
+    section {
+        width: 80%;
+        
+    }
+
+    aside {
+        width: 20%;
+    }
         
     
 }
