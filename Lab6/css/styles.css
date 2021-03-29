@@ -208,15 +208,13 @@ footer {
         border:  4px solid burlywood;
     }
 
-    section {
-        width: 70%;
-        
-        
-    }
+   section {
+       width: 70%;
+   }
 
-    aside {
-        width: 30%;
-    }
+   aside {
+       width: 30%;
+   }
 
     img {
         max-width: 100%;
