@@ -221,5 +221,7 @@ footer {
         max-width: 100%;
     }
         
-    
+    .single_col {
+        width: 100%;
+    }
 }
