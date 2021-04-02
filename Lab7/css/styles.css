@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(2, 7, 5);
 }
 
 video {
@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-    color: crimson;
+    color: yellow;
     text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ header {
 }
 
 header h1 {
-    color: rgb(100, 207, 29);
+    color: yellow;
     line-height: 275px;
     text-align: center;
     text-shadow: 2px 2px 2px black;
@@ -55,23 +55,23 @@ nav li a {
     background-color: black;
     padding:15px;
     margin: 2px 0;
-    color: darkmagenta;
+    color: yellow;
     font-size: 1.3em;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: hotpink;
+    background-color: rgb(8, 7, 8);
 }
 
 section {
-    background-color: rgb(141, 129, 25);
+    background-color: yellow;
     margin-top: 2px;
     padding: 20px;
 }
 
 section h2, h3 {
-    color:rgb(179, 156, 201) ;
+    color:black ;
     text-align: center;
 }
 
@@ -116,7 +116,7 @@ footer {
     }
 
     nav {
-        background-color: crimson;
+        background-color: rgb(13, 150, 74);
         padding: 5px 0;
     }
 
@@ -125,13 +125,13 @@ footer {
     }
 
     nav li a {
-        border-top:  2px solid brown;
+        border-top:  2px solid yellow;
         border-bottom: 2px solid black;
         width: 150px;
     }
 
     nav li a:hover {
-        color: blueviolet;
+        color: rgb(13, 150, 74);
     }
 
     video {
