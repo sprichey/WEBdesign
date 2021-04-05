@@ -14,3 +14,5 @@
 <a href="Lab5/index.html">Lab5 - Band of Brothers</a><br>
 
 <a href="Lab6/index.html">Lab6 - Band of Brothers</a><br>
+
+<a href="Lab7/index.html">Lab7 - Led Zeppelin</a><br>
