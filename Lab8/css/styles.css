@@ -1,0 +1,32 @@
+/* Mobile Styles */
+
+header {
+    background-color: aqua;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    color: black;
+}
+
+nav {
+    background-color: blueviolet ;
+}
+
+section {
+    background-color: chartreuse;
+}
+
+section h2 {
+    text-align: center;
+    color: black;
+}
+
+footer {
+    background-color: aqua;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
