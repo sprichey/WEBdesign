@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     <link rel="stylesheet" href="css/styles.css">
 
 
@@ -39,6 +42,12 @@
 
          <section>
              <h2>BxSlider</h2>
+             <div class="slider">
+                <div><img src="images/d1.jpg" alt="d1"></div>
+                <div><img src="images/d2.jpg" alt="d2"></div>
+                <div><img src="images/d3.jpg" alt="d3"></div>
+                <div><img src="images/d4.jpg" alt="d4"></div>
+              </div>
          </section>
 
          <section>
@@ -58,12 +67,19 @@
 
  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
 
 <script src="js/jquery.slicknav.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
 
 <script>
     $(function(){
         $('#menu').slicknav();
+        $('.slider').bxSlider();
     });
 </script>
 

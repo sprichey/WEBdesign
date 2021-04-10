@@ -1,7 +1,12 @@
 /* Mobile Styles */
 
+#container {
+    margin: 5px;
+
+}
+
 header {
-    background-color: aqua;
+    background-color: rgb(23, 124, 124);
     text-align: center;
     padding: 40px 0;
 }
@@ -15,7 +20,9 @@ nav {
 }
 
 section {
-    background-color: chartreuse;
+    background-color: rgb(47, 88, 5);
+    padding: 10px;
+    margin: 5px;
 }
 
 section h2 {
@@ -24,9 +31,13 @@ section h2 {
 }
 
 footer {
-    background-color: aqua;
+    background-color: rgb(23, 124, 124);
     color: black;
     padding: 40px;
     text-align: center;
+}
+
+#menu {
+    display: none;
 }
 
