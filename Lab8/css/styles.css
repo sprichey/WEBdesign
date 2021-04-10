@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: rgb(23, 124, 124);
+    background-color: rgb(47, 88, 5);
     text-align: center;
     padding: 40px 0;
 }
@@ -16,7 +16,8 @@ header h1 {
 }
 
 nav {
-    background-color: blueviolet ;
+    background-color: rgb(47, 88, 5);
+    color: black;
 }
 
 section {
@@ -31,7 +32,7 @@ section h2 {
 }
 
 footer {
-    background-color: rgb(23, 124, 124);
+    background-color: rgb(47, 88, 5);
     color: black;
     padding: 40px;
     text-align: center;
@@ -39,5 +40,49 @@ footer {
 
 #menu {
     display: none;
+    
 }
 
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px) {
+    .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    nav {
+        text-align: center;
+    
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    nav li {
+        display: inline-block
+    }
+
+    nav li a {
+        display: block;
+        background-color:rgb(47, 88, 5) ;
+        color: black;
+        padding: 10px;
+        width: 150px;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width:1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+    }
+}
