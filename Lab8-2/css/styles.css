@@ -1,0 +1,110 @@
+/* Mobile Styles */
+
+#container {
+    margin: 5px;
+
+}
+
+header {
+    background-color: rgb(47, 88, 5);
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    color: black;
+}
+
+nav {
+    background-color: black;
+    color: black;
+}
+
+section {
+    background-color: rgb(47, 88, 5);
+    padding: 10px;
+    margin: 5px;
+}
+
+section h2 {
+    text-align: center;
+    color: black;
+}
+
+footer {
+    background-color: rgb(47, 88, 5);
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+#menu {
+    display: none;
+    
+}
+
+.button {
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px) {
+    .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    nav {
+        text-align: center;
+    
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    nav li {
+        display: inline-block
+    }
+
+    nav li a {
+        display: block;
+        background-color:rgb(47, 88, 5) ;
+        color: black;
+        padding: 10px;
+        width: 150px;
+    }
+
+    .button {
+        padding: 10px;
+        background-color: blanchedalmond;
+        color: black;
+        text-align: center;
+       
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width:1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+    }
+
+    .button {
+        padding: 10px;
+        background-color: blanchedalmond;
+        color: black;
+        text-align: center;
+    }
+}

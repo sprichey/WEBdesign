@@ -18,3 +18,5 @@
 <a href="Lab7/index.html">Lab7 - Led Zeppelin</a><br>
 
 <a href="Lab8/index.html">Lab 8</a><br>
+
+<a href="Lab8-2/index.html">Lab 8-2</a><br>
