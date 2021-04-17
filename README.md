@@ -20,3 +20,5 @@
 <a href="Lab8/index.html">Lab 8</a><br>
 
 <a href="Lab8-2/index.html">Lab 8-2</a><br>
+
+<a href="Final/index.html">Final</a><br>
