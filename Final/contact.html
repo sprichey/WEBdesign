@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Final</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/sunny/jquery-ui.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body id="top">
+
+    <div id="#container">
+
+        <header>
+            <h1>Prostate Cancer</h1>
+        </header>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#main">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+               </ul>
+        </nav>
+
+        <main>
+
+        <section>
+            <h2>Procedures</h2>
+            <div class="slider">
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Info</h2>
+            <div id="accordion">
+                <h3>section 1</h3>
+                <h3>section 2</h3>
+                <h3>section3</h3>
+                </div>
+                <a class="button" href="#top">Back to the Top</a>
+        </section>
+
+        <section>
+            <h2>jQuery UI Tabs</h2>
+            <div id="tabs">
+                <ul>
+                  <li><a href="#tabs-1"></a></li>
+                  <li><a href="#tabs-2"></a></li>
+                  <li><a href="#tabs-3"></a></li>
+                </ul>
+                <div id="tabs-1">
+                  <p>Cancer</p>
+                </div>
+                <div id="tabs-2">
+                 
+                </div>
+                <div id="tabs-3">
+                 
+                </div>
+              </div>
+
+              <a class="button" href="#top">Back to the Top</a>
+               
+        </section>
+
+    </main>
+
+    <footer>&copy; 2021 Final</footer>
+
+    
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+   
+   
+   <script src="js/jquery.slicknav.min.js"></script>
+   
+   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+   
+   <script src="js/zenscroll-min.js"></script>
+   
+   
+   
+   <script>
+       $(function(){
+           $('#menu').slicknav();
+           $('.slider').bxSlider();
+           $( "#accordion" ).accordion();
+           $( "#tabs" ).tabs();
+           $( "input" ).checkboxradio();
+       });
+   </script>
+    
+</body>
+</html>
