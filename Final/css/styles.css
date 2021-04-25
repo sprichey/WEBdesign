@@ -50,6 +50,16 @@ footer {
     text-align: center;
 }
 
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+
+
 /* Tablet Styles */
 
 @media only screen and (min-width: 768px) {
@@ -91,6 +101,14 @@ footer {
         text-align: center;
        
     }
+
+    section {
+        width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
 }
 
 /* Desktop Styles */
@@ -106,5 +124,13 @@ footer {
         background-color: blanchedalmond;
         color: black;
         text-align: center;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    section {
+        width: 70%;
     }
 }
