@@ -50,12 +50,9 @@ footer {
     text-align: center;
 }
 
-section {
-    width: 70%;
-}
 
-aside {
-    width: 30%;
+img {
+    max-width: 100%;
 }
 
 
@@ -102,12 +99,10 @@ aside {
        
     }
 
-    section {
-        width: 70%;
-    }
+    
 
-    aside {
-        width: 30%;
+    img {
+        max-width: 100%;
     }
 }
 
@@ -126,11 +121,9 @@ aside {
         text-align: center;
     }
 
-    aside {
-        width: 30%;
-    }
+  
 
-    section {
-        width: 70%;
+    img {
+        max-width: 100%;
     }
 }
