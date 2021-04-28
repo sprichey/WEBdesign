@@ -146,6 +146,16 @@ aside {
         max-width: 100%;
     }
 
+    .accordian {
+        background-color: lightblue;
+        color: lightblue;
+    }
+
+    .tabs {
+        color: lightblue;
+        background-color: lightblue;
+    }
+
     
 
 }
