@@ -68,9 +68,6 @@ img {
     max-width: 100%;
 }
 
-aside {
-    width: 30%;
-}
 
 
 /* Tablet Styles */
@@ -158,6 +155,8 @@ aside {
         background-color: lightblue;
     }
 
-    
+    main {
+        display: flex;
+    }
 
 }
