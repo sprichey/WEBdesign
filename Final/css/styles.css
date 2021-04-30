@@ -67,6 +67,18 @@ footer {
 img {
     max-width: 100%;
 }
+table {
+    width: 100%;
+    border: 2px solid rgb(10, 10, 10);
+    margin: 10px;
+}
+td, th, tr {
+    color: black;
+    border: 2px solid black;
+    padding: 10px;;
+    text-align: center;
+}
+
 
 
 
@@ -118,6 +130,18 @@ img {
     img {
         max-width: 100%;
     }
+    table {
+        width: 100%;
+        border: 2px solid rgb(10, 10, 10);
+        margin: 10px;
+    }
+    td, th, tr {
+        color: black;
+        border: 2px solid black;
+        padding: 10px;;
+        text-align: center;
+    }
+    
 
     
 
@@ -154,6 +178,19 @@ img {
         color: lightblue;
         background-color: lightblue;
     }
+    table {
+        width: 100%;
+        border: 2px solid rgb(10, 10, 10);
+        margin: 10px;
+    }
+
+    td, th, tr {
+        color: black;
+        border: 2px solid black;
+        padding: 10px;;
+        text-align: center;
+    }
+    
 
  
 }
