@@ -1,0 +1,21 @@
+@charset "utf-8";
+.container .container h3 {
+	text-align: center;
+}
+.img-fluid {
+}
+
+.container h3 {
+	text-align: center;
+}
+.row .col-lg-4 h3 {
+	text-align: center;
+}
+.container h2 {
+	text-align: center;
+}
+#headingOne1 .mb-0 a {
+}
+body {
+	background-color: #DCDCDC;
+}
